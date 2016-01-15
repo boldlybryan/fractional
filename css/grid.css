@@ -44,3 +44,17 @@
 
 .whole {
   width: 100%; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.center {
+  margin: 0 auto; }
+
+.clear {
+  content: "";
+  display: block;
+  clear: both; }
