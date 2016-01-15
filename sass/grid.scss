@@ -19,7 +19,7 @@
 
 .grid {
   float: left;
-  padding: 20px;
+  padding: $spacing;
   min-height: 1px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .grid-flex * {
-  padding: 20px;
+  padding: $spacing;
 }
 
 //Setting the possible widths for elements - fraction based.
