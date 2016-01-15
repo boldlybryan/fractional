@@ -1,10 +1,10 @@
 {
-  "name": "fractional;",
+  "name": "fractional",
   "version": "0.1.0",
   "description": "A simple CSS framework",
-  "main": "fractional.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "npm help json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bryan King",
   "license": "MIT",
