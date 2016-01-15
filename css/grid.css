@@ -1,3 +1,20 @@
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.grid {
+  float: left;
+  padding: 20px;
+  min-height: 1px; }
+
+.grid-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px; }
+
 .one-fifth {
   width: 20%; }
 
