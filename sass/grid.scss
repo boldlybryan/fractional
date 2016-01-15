@@ -82,3 +82,21 @@
   display: block;
   clear: both;
 }
+
+//Responsive breakpoints
+
+@media all and (min-width: $medium){
+
+  .wrapper {
+    max-width: $medium-wrapper;
+  }
+
+}
+
+@media all and (min-width: $large){
+
+  .wrapper {
+    max-width: $large-wrapper;
+  }
+
+}

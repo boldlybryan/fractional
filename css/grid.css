@@ -58,3 +58,11 @@
   content: "";
   display: block;
   clear: both; }
+
+@media all and (min-width: 768px) {
+  .wrapper {
+    max-width: 750px; } }
+
+@media all and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1000px; } }
