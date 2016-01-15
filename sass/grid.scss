@@ -99,6 +99,13 @@
 
 //Responsive breakpoints
 
+@media all and (max-width: $medium){
+
+  .grid-flex * {
+    width: 100%;
+  }
+}
+
 @media all and (min-width: $medium){
 
   .wrapper {

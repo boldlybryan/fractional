@@ -70,6 +70,10 @@
   display: block;
   clear: both; }
 
+@media all and (max-width: 768px) {
+  .grid-flex * {
+    width: 100%; } }
+
 @media all and (min-width: 768px) {
   .wrapper {
     max-width: 750px; } }
