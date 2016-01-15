@@ -1,3 +1,26 @@
+@import 'variables';
+
+//Outlying structure for the grid
+.wrapper {
+  max-width: $large-wrapper;
+  margin: 0 auto;
+}
+
+.grid {
+  float: left;
+  padding: 20px;
+  min-height: 1px;
+}
+
+.grid-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
 //Setting the possible widths for elements - fraction based.
 
 .one-fifth {
