@@ -12,8 +12,7 @@
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 100%;
-  padding: 20px; }
+  width: 100%; }
 
 .one-fifth {
   width: 20%; }
