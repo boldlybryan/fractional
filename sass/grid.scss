@@ -31,8 +31,10 @@
   width: 100%;
 }
 
-.grid-flex * {
-  padding: $spacing;
+.grid-flex {
+  .one-fifth, .one-quarter, .one-third, .two-fifths, .one-half, .three-fifths, .two-thirds, .three-quarters, .four-fifths, .whole {
+    padding: $spacing;
+  }
 }
 
 //Setting the possible widths for elements - fraction based.
