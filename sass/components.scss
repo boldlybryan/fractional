@@ -1,0 +1,46 @@
+@import 'variables';
+
+//Navigation
+.nav-top {
+  height: $nav-top-height;
+
+  .logo {
+    padding: $spacing;
+    float: left;
+  }
+
+  button {
+    display: none;
+  }
+
+  ul {
+
+    padding: $spacing;
+
+    li {
+      display: inline;
+      padding: $spacing;
+      line-height: 20px;
+    }
+  }
+
+}
+
+
+@media all and (max-width: $medium){
+  .nav-top {
+
+    button {
+      display: block;
+    }
+
+    ul {
+
+      display: none;
+
+      li {
+        display: block;
+      }
+    }
+  }
+}
