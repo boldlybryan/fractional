@@ -1,5 +1,3 @@
-@import 'variables';
-
 //Outlying structure for the grid
 
 *,
@@ -37,6 +35,9 @@
 .grid-flex {
   .one-fifth, .one-quarter, .one-third, .two-fifths, .one-half, .three-fifths, .two-thirds, .three-quarters, .four-fifths, .whole {
     padding: $spacing;
+    @media (max-width: $medium){
+      padding: $spacing-small;
+    }
   }
 }
 
