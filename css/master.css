@@ -355,3 +355,167 @@ table {
 td,
 th {
   padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 1.58; }
+
+.huge {
+  font-size: 112px; }
+
+.xl {
+  font-size: 56px; }
+
+.lg {
+  font-size: 48px; }
+
+.md {
+  font-size: 32px; }
+
+.sm {
+  font-size: 24px; }
+
+.xs {
+  font-size: 16px; }
+
+.bold {
+  font-weight: 700; }
+
+.semibold {
+  font-weight: 500; }
+
+.light {
+  font-weight: 300; }
+
+.italicize {
+  font-style: italic; }
+
+.allcaps {
+  text-transform: uppercase; }
+
+.larger {
+  font-size: 125%; }
+
+.smaller {
+  font-size: 75%; }
+
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%; }
+
+.grid {
+  float: left;
+  padding: 20px;
+  min-height: 1px;
+  height: 100%; }
+
+.grid-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%; }
+
+.grid-flex .one-fifth, .grid-flex .one-quarter, .grid-flex .one-third, .grid-flex .two-fifths, .grid-flex .one-half, .grid-flex .three-fifths, .grid-flex .two-thirds, .grid-flex .three-quarters, .grid-flex .four-fifths, .grid-flex .whole {
+  padding: 20px; }
+
+.one-fifth {
+  width: 20%; }
+
+.one-quarter {
+  width: 25%; }
+
+.one-third {
+  width: 33.33%; }
+
+.two-fifths {
+  width: 40%; }
+
+.one-half {
+  width: 50%; }
+
+.three-fifths {
+  width: 60%; }
+
+.two-thirds {
+  width: 66.67%; }
+
+.three-quarters {
+  width: 75%; }
+
+.four-fifths {
+  width: 80%; }
+
+.whole {
+  width: 100%; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.center {
+  margin: 0 auto; }
+
+.clear {
+  content: "";
+  display: block;
+  clear: both; }
+
+@media all and (max-width: 768px) {
+  .grid-flex * {
+    width: 100%; } }
+
+@media all and (min-width: 768px) {
+  .wrapper {
+    max-width: 750px; } }
+
+@media all and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1000px; } }
+
+.nav-top {
+  height: 60px; }
+  .nav-top .logo {
+    padding: 20px;
+    float: left; }
+  .nav-top button {
+    display: none; }
+  .nav-top ul {
+    padding: 20px; }
+    .nav-top ul li {
+      display: inline;
+      padding: 20px;
+      line-height: 20px; }
+
+@media all and (max-width: 768px) {
+  .nav-top button {
+    display: block; }
+  .nav-top ul {
+    display: none; }
+    .nav-top ul li {
+      display: block; } }

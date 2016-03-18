@@ -1,0 +1,71 @@
+h1, h2, h3, h4, h5, h6, p {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	line-height: 1.58;
+}
+
+.huge {
+	font-size: 112px;
+}
+
+.xl{
+	font-size: 56px;
+}
+
+.lg {
+	font-size: 48px;
+}
+
+.md {
+	font-size: 32px;
+}
+
+.sm {
+	font-size: 24px;
+}
+
+.xs {
+	font-size: 16px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.semibold {
+	font-weight: 500;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.italicize {
+	font-style: italic;
+}
+
+.allcaps {
+	text-transform: uppercase;
+}
+
+.larger {
+	font-size: 125%;
+}
+
+.smaller {
+	font-size: 75%;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
