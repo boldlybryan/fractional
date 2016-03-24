@@ -13,8 +13,8 @@
   max-width: $large-boundary;
   margin: 0 auto;
   height: 100%;
-  @media (min-width: $medium){
-    max-width: $medium-boundary;
+  @media (max-width: $medium){
+    width: 90%;
   }
 }
 
